@@ -15,6 +15,7 @@ Text Domain: mikroaktiv
 
 body {
 	font-family: 'Alef', sans-serif;
+	background-color: #e0eaf3;
 }
 
 header {
@@ -23,3 +24,4 @@ header {
 	height: 86px;
 	text-align: center;
 }
+
