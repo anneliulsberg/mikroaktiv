@@ -28,8 +28,42 @@ header {
 nav {
 	font-family: 'Finger Paint', cursive;
 	font-size: 18px;
+	height: 263px;
+	background-image: url(images/decor-circlemenu.png);
+	background-repeat: no-repeat;
+}
+
+nav li:hover {
+	background-image: url(images/menu-circle-h-a.png);
+	background-repeat: no-repeat;
 }
 
 nav a {
 	color: #fff;
+	text-decoration: none;
+	width: 140px;
+	height: 140px;
+	display: block;
+	text-align: center;
+	margin-top: 60px;
+}
+
+nav ul {
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav li {
+	float: left;
+	margin-left: 40px;
+	background-image: url(images/menu-circle.png);
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 140px;
+	margin-top: 60px;
+	margin-right: 60px;
+}
+
+nav li:nth-child(1) {
+		
 }
