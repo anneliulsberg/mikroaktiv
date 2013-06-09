@@ -16,3 +16,10 @@ Text Domain: mikroaktiv
 body {
 	font-family: 'Alef', sans-serif;
 }
+
+header {
+	background-image: url(images/menu-header.png);
+	background-repeat: repeat-x;
+	height: 86px;
+	text-align: center;
+}
