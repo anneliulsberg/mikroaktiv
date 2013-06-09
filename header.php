@@ -13,6 +13,8 @@
 	<body>
 		<header><a href="/"><img src="<?php echo get_template_directory_uri() ?>/images/menu-header-logo.png" alt="mikroaktiv" width="338" height="86"></a></header>
 		
+		<div id="slideshow"></div>
+		
 		<nav>
 			<ul>
 				<li><a href="/aktiviteter">Aktiviteter</a></li>
