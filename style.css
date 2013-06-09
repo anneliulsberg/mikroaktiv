@@ -19,6 +19,7 @@ body {
 	background-repeat: no-repeat;
 	font-family: 'Alef', sans-serif;
 	background-color: #e0eaf3;
+	padding-bottom: 40px;
 }
 
 body.home {
@@ -79,3 +80,36 @@ nav li {
 	-moz-box-shadow:    4px 4px 10px rgba(153, 153, 153, 0.4);
 	box-shadow:         4px 4px 10px rgba(153, 153, 153, 0.4);
 }
+
+#content {
+	background-image: url(images/page-bg.png);
+}
+
+#content:before {
+	background-image: url(images/page-top.png);
+	background-repeat: repeat-x;
+	height: 32px;
+	content: '';
+	display: block;
+}
+
+#content:after {
+	background-image: url(images/page-bottom.png);
+	background-repeat: repeat-x;
+	height: 28px;
+	content: '';
+	display: block;
+}
+
+
+#content h2 {
+	margin-top: 28px;
+	color: #fff;
+	font-size: 20px;
+}
+
+
+
+
+
+
