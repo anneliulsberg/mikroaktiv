@@ -28,5 +28,8 @@ header {
 nav {
 	font-family: 'Finger Paint', cursive;
 	font-size: 18px;
+}
+
+nav a {
 	color: #fff;
 }
