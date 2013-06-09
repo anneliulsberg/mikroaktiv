@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title><?php wp_title('-', true, 'right'); ?> <?php bloginfo('name') ?></title>
-		<link rel="Shortcut Icon" type="image/ico" href="images/favicon.ico">
+		<link rel="Shortcut Icon" type="image/ico" href="<?php echo $t_uri ?>/images/favicon.ico">
 		<link href='http://fonts.googleapis.com/css?family=Alef:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="<?php echo $t_uri ?>/style.css">
