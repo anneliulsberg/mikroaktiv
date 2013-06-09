@@ -10,3 +10,4 @@
 	</head>
 	
 	<body>
+		<header><img src="<?php echo get_template_directory_uri() ?>/images/menu-header-logo.png" alt="mikroaktiv" width="338" height="86"></header>
