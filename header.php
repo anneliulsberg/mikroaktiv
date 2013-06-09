@@ -34,3 +34,5 @@
 				<li><a href="/eventyr">Eventyr</a></li>
 			</ul>
 		</nav>
+		
+		<div id="content">
