@@ -14,6 +14,9 @@ Text Domain: mikroaktiv
 @import url("css/reset.css");
 
 body {
+	background-image: url(images/decor-circlemenu.png);
+	background-position: -50px 240px;
+	background-repeat: no-repeat;
 	font-family: 'Alef', sans-serif;
 	background-color: #e0eaf3;
 }
@@ -29,8 +32,7 @@ nav {
 	font-family: 'Finger Paint', cursive;
 	font-size: 18px;
 	height: 263px;
-	background-image: url(images/decor-circlemenu.png);
-	background-repeat: no-repeat;
+
 }
 
 nav li:hover {
@@ -64,6 +66,12 @@ nav li {
 	margin-right: 60px;
 }
 
-nav li:nth-child(1) {
-		
+#slideshow {
+	height: 512px;
+	max-width: 1490px;
+	margin: 20px auto 0 auto;
+	overflow: hidden;
+	-webkit-box-shadow: 4px 4px 10px rgba(153, 153, 153, 0.4);
+	-moz-box-shadow:    4px 4px 10px rgba(153, 153, 153, 0.4);
+	box-shadow:         4px 4px 10px rgba(153, 153, 153, 0.4);
 }
