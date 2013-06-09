@@ -14,15 +14,17 @@
 		<script src="<?php echo $t_uri ?>/js/main.js" type="text/javascript"></script>
 	</head>
 	
-	<body>
+	<body class="<?php echo is_home() ? 'home' : '' ?>">
 		<header><a href="/"><img src="<?php echo $t_uri ?>/images/menu-header-logo.png" alt="mikroaktiv" width="338" height="86"></a></header>
 		
+		<?php if (is_home()) : ?>
 			<ul id="slideshow">
 				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-blocks.jpg"></a></li>	
 				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-chalk.jpg"></a></li>
 				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-crayon.jpg"></a></li>
 				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-fingerpaint.jpg"></a></li>	
 			</ul>
+		<?php endif; ?>
 		
 		<nav>
 			<ul>

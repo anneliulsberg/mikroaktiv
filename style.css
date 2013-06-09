@@ -15,10 +15,14 @@ Text Domain: mikroaktiv
 
 body {
 	background-image: url(images/decor-circlemenu.png);
-	background-position: -50px 240px;
+	background-position: -50px -200px;
 	background-repeat: no-repeat;
 	font-family: 'Alef', sans-serif;
 	background-color: #e0eaf3;
+}
+
+body.home {
+	background-position: -50px 240px;
 }
 
 header {
