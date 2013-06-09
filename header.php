@@ -6,6 +6,7 @@
 		<title><?php wp_title('-', true, 'right'); ?> <?php bloginfo('name') ?></title>
 		<link rel="Shortcut Icon" type="image/ico" href="images/favicon.ico">
 		<link href='http://fonts.googleapis.com/css?family=Alef:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css">
 	</head>
 	
