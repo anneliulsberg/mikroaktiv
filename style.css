@@ -1,0 +1,18 @@
+/*
+Theme Name: Mikroaktiv
+Theme URI: http://mikroaktiv.no/
+Author: Anneli Ulsberg
+Author URI: http://anneli.ulsberg.no/
+Description: Tema for Mikroaktiv.no
+Version: 1.0
+License: 
+License URI: 
+Tags: 
+Text Domain: mikroaktiv
+*/
+
+@import url("css/reset.css");
+
+body {
+	font-family: 'Alef', sans-serif;
+}
