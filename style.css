@@ -190,10 +190,6 @@ section.category a:hover {
 	background-color: rgba(132, 186, 88, 0.9);
 }
 
-section.category article {
-
-}
-
 body.category section.category a {
 	float: left;
 	margin-right: 20px;
