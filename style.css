@@ -29,15 +29,16 @@ body.home {
 header {
 	background-image: url(images/menu-header.png);
 	background-repeat: repeat-x;
-	height: 86px;
+	height: 66px;
+	padding-top: 20px;
 }
 
 header a {
 	background-image: url(images/menu-header-logo.png);
 	background-repeat: no-repeat;
 	display: block;
-	width: 338px;
-	height: 86px;
+	width: 176px;
+	height: 44px;
 	text-align: center;
 	text-indent: -10000px;
 	margin: 0 auto;
