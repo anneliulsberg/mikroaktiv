@@ -16,7 +16,7 @@
 	</head>
 	
 	<body class="<?php echo is_home() ? 'home' : '' ?>">
-		<header><a href="/"><img src="<?php echo $t_uri ?>/images/menu-header-logo.png" alt="mikroaktiv" width="338" height="86"></a></header>
+		<header><a href="/">mikroaktiv</a></header>
 		
 		<?php if (is_home()) : ?>
 			<ul id="slideshow">
