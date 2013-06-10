@@ -130,6 +130,18 @@ nav li {
 	padding: 60px 0 40px 0;
 }
 
+#content article h1 {
+	font-family: 'Finger Paint', cursive;
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+#content article img {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
 #content:after {
 	content: '';	
 	clear: both;
@@ -184,8 +196,6 @@ body.category section.category article {
 	float: left;
 	margin-right: 20px;
 }
-
-
 
 footer {
 	text-align: center;
