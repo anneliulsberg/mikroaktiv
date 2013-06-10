@@ -163,6 +163,10 @@ nav li {
 	height: 236px;
 }
 
+.category a:hover {
+	background-color: rgba(61, 150, 0, .5);
+}
+
 .category li {
 	height: 256px;
 	background-color: #fff;
