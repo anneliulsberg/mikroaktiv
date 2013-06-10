@@ -125,7 +125,6 @@ nav li {
 .category h3 {
 	background-color: rgba(0, 0, 0, .2);
 	height: 60px;
-	padding-top: 20px;
 }
 
 /*.category a:before {
@@ -133,14 +132,17 @@ nav li {
 	width: 220px;
 	height: 256px;
 	display: block;	
+	z-index: 1;
+	position: relative;
 }*/
 
 .category a {
 	color: #fff;
 	text-decoration: none;
-	z-index: 4;
-	position: relative;
 	display: block;
+	padding-top: 20px;
+	width: 220px;
+	height: 236px;
 }
 
 .category li {
