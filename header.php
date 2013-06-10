@@ -36,4 +36,5 @@
 			</ul>
 		</nav>
 		
-		<div id="content">
+		<div id="page">
+			<div id="content">
