@@ -15,7 +15,7 @@
 		<?php wp_head(); ?>		
 	</head>
 	
-	<body class="<?php echo is_home() ? 'home' : '' ?>">
+	<body <?php body_class(); ?>>
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];

@@ -136,25 +136,28 @@ nav li {
 	display: block;		
 }
 
-.category {
+section.category {
 	color: #fff;
 	float: left;
 	text-align: center;
 	margin-right: 20px;
-	
 }
 
-.category h2 {
+body.category section.category {
+	width: 960px;
+}
+
+section.category h2 {
 	font-size: 20px;
 	margin-bottom: 20px;
 }
 
-.category h3 {
+section.category h3 {
 	background-color: rgba(0, 0, 0, .2);
 	height: 60px;
 }
 
-.category a {
+section.category a {
 	color: #fff;
 	text-decoration: none;
 	display: block;
@@ -163,11 +166,12 @@ nav li {
 	height: 236px;
 }
 
-.category a:hover {
+section.category a:hover {
 	background-color: rgba(61, 150, 0, .5);
 }
 
-.category li {
+section.category article {
+	list-style: none;
 	height: 256px;
 	background-color: #fff;
 	width: 220px;
@@ -175,6 +179,13 @@ nav li {
 	position: relative;
 	z-index: 3;
 }
+
+body.category section.category article {
+	float: left;
+	margin-right: 20px;
+}
+
+
 
 footer {
 	text-align: center;
