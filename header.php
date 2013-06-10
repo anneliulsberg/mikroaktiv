@@ -12,6 +12,7 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 		<script src="<?php echo $t_uri ?>/js/jquery.cycle.js" type="text/javascript"></script>
 		<script src="<?php echo $t_uri ?>/js/main.js" type="text/javascript"></script>
+		<?php wp_head(); ?>		
 	</head>
 	
 	<body class="<?php echo is_home() ? 'home' : '' ?>">
