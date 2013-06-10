@@ -2,7 +2,7 @@
 <?php $categories = get_categories(array('orderby' => 'name', 'order' => 'ASC', 'child_of' => 0)); ?>
 <?php foreach ($categories as $category) : ?>
 
-	<div id="<?php echo $category->slug ?>">
+	<div id="<?php echo $category->slug ?>" class="category">
 		<h2>Topp 5 <?php echo $category->name ?></h2>
 	
 		<ul>
