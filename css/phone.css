@@ -51,9 +51,8 @@ nav a {
 	text-decoration: none;
 	height: 42px;
 	display: block;
-	margin-top: 10px;
+	margin: 10px 0 0 20px;
 	padding-top: 22px;
-	margin-left: 20px;
 }
 
 #page {
@@ -90,6 +89,26 @@ nav a {
 	margin: 0 auto;
 	padding: 20px 0 20px 0;
 	color: #fff;
+}
+
+#content article h1 {
+	text-align: center;
+	font-family: 'Finger Paint', cursive;
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+#media {
+	margin-bottom: 20px;
+}
+
+#content article p {
+	padding-bottom: 20px;
+}
+
+body.page #content article h1 {
+	text-align: left;
 }
 
 section.category {
