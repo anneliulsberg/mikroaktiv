@@ -37,12 +37,7 @@
 		<?php endif; ?>
 		
 		<nav>
-			<ul>
-				<li><a href="/aktiviteter">Aktiviteter</a></li>
-				<li><a href="/sanger">Sanger</a></li>
-				<li><a href="/rim-og-regler">Rim &amp; regler</a></li>
-				<li><a href="/eventyr">Eventyr</a></li>
-			</ul>
+			<?php wp_nav_menu(array('container' => false)); ?>
 		</nav>
 		
 		<div id="page">

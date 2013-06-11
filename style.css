@@ -55,7 +55,8 @@ nav {
 
 }
 
-nav li:hover {
+nav li:hover, 
+nav li.current {
 	background-image: url(images/menu-circle-h-a.png);
 	background-repeat: no-repeat;
 }
