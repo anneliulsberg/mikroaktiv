@@ -116,3 +116,105 @@ nav li {
 	border-bottom: 1px solid #fff;
 	clear: both;
 }
+
+#content {
+	width: 740px;
+	margin: 0 auto;
+	padding: 40px 0 35px 0;
+	color: #fff;
+}
+
+#content article h1 {
+	font-family: 'Finger Paint', cursive;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+#body {
+	float: right;
+	width: 492px;
+}
+
+#media {
+	float: left;
+}
+
+#content article p {
+	padding-bottom: 20px;
+}
+
+#content:after {
+	content: '';	
+	clear: both;
+	display: block;		
+}
+
+section.category {
+	color: #fff;
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+}
+
+section.category:last-child {
+	margin-right: 0;
+}
+
+body.category section.category {
+	width: 768px;
+}
+
+section.category h2 {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+section.category h3 {
+	background-color: rgba(0, 0, 0, .2);
+	height: 40px;
+	width: 170px;
+	position: absolute;
+	bottom: 0;
+	padding-top: 20px;
+	font-size: ;
+}
+
+section.category a {
+	width: 170px;
+	height: 197px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	position: relative;
+	z-index: 3;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+body.category section.category {
+	width: 768px;
+}
+
+section.category a:hover {
+	background-color: rgba(132, 186, 88, 0.9);
+}
+
+body.category section.category a {
+	float: left;
+	margin-right: 20px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 20px;	
+}
+
+footer a {
+	color: #4781b2;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 25px;
+	font-family: 'Finger Paint', cursive;
+}
+
