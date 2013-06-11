@@ -124,11 +124,27 @@ nav li {
 	color: #fff;
 }
 
+#content:after {
+	content: '';	
+	clear: both;
+	display: block;		
+}
+
+#content article {
+	position: relative;
+	height: 197px;
+	margin-bottom: 20px;
+}
+
 #content article h1 {
 	font-family: 'Finger Paint', cursive;
 	font-size: 20px;
 	color: #fff;
 	margin-bottom: 20px;
+}
+
+#content article p {
+	padding-bottom: 20px;
 }
 
 #body {
@@ -138,16 +154,6 @@ nav li {
 
 #media {
 	float: left;
-}
-
-#content article p {
-	padding-bottom: 20px;
-}
-
-#content:after {
-	content: '';	
-	clear: both;
-	display: block;		
 }
 
 section.category {
@@ -171,25 +177,26 @@ section.category h2 {
 }
 
 section.category h3 {
-	background-color: rgba(0, 0, 0, .2);
+	background-color: rgba(0, 0, 0, .4);
 	height: 40px;
 	width: 170px;
 	position: absolute;
 	bottom: 0;
 	padding-top: 20px;
-	font-size: ;
+	font-size: 12px;
 }
 
 section.category a {
 	width: 170px;
 	height: 197px;
-	background-color: #fff;
 	margin-bottom: 20px;
 	position: relative;
-	z-index: 3;
 	color: #fff;
 	text-decoration: none;
 	display: block;
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    4px 4px 10px rgba(0, 0, 0, 0.3);
+	box-shadow:         4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 body.category section.category {
@@ -197,10 +204,10 @@ body.category section.category {
 }
 
 section.category a:hover {
-	background-color: rgba(132, 186, 88, 0.9);
+	background-color: rgba(132, 186, 88, 0.5);
 }
 
-body.category section.category a {
+body.category section.category article {
 	float: left;
 	margin-right: 20px;
 }
