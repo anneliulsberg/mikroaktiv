@@ -1,1 +1,37 @@
 @import url("reset.css");
+
+body {
+	background-image: url(../images/decor-circlemenu.png);
+	background-position: -50px -200px;
+	background-repeat: no-repeat;
+	font-family: 'Alef', sans-serif;
+	background-color: #e0eaf3;
+	padding-bottom: 40px;
+}
+
+body.home {
+	background-position: -50px 240px;
+}
+
+header {
+	background-image: url(../images/tablet-menu-header.png);
+	background-repeat: repeat-x;
+	height: 66px;
+	padding-top: 15px;
+}
+
+header a {
+	background-image: url(../images/tablet-menu-header-logo.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 136px;
+	height: 35px;
+	text-align: center;
+	text-indent: -10000px;
+	margin: 0 auto;
+}
+
+header a:hover {
+	background-image: url(../images/tablet-menu-header-logo-hover.png);
+}
+
