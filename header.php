@@ -9,7 +9,7 @@
 		<link rel="Shortcut Icon" type="image/ico" href="<?php echo $t_uri ?>/images/favicon.ico">
 		<link href='http://fonts.googleapis.com/css?family=Alef:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="<?php echo $t_uri ?>/css/phone.css" media="only screen and (min-width: 320px) and (max-width: 615px)">
+		<link rel="stylesheet" href="<?php echo $t_uri ?>/css/phone.css" media="only screen and (min-width: 320px) and (max-width: 767px)">
 		<link rel="stylesheet" href="<?php echo $t_uri ?>/css/tablet.css" media="only screen and (min-width: 768px)">
 		<link rel="stylesheet" href="<?php echo $t_uri ?>/css/desktop.css" media="only screen and (min-width: 960px)">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
