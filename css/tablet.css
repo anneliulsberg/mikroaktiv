@@ -52,3 +52,43 @@ header a:hover {
 	height: 275px;
 	max-width: 768px;
 }
+
+nav {
+	font-family: 'Finger Paint', cursive;
+	font-size: 14px;
+	height: 263px;
+
+}
+
+nav li:hover, 
+nav li.current {
+	background-image: url(../images/tablet-menu-circle-h-a.png);
+	background-repeat: no-repeat;
+}
+
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	width: 109px;
+	height: 62px;
+	display: block;
+	text-align: center;
+	padding-top: 47px;
+}
+
+nav ul {
+	width: 768px;
+	margin: 0 auto;
+}
+
+nav li {
+	float: left;
+	margin-left: 50px;
+	background-image: url(../images/tablet-menu-circle.png);
+	background-repeat: no-repeat;
+	width: 109px;
+	height: 109px;
+	margin-top: 47px;
+	margin-right: 30px;
+}
