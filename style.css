@@ -139,9 +139,17 @@ nav li {
 	margin-bottom: 20px;
 }
 
-#content article img {
+#body {
+	float: right;
+	width: 720px;
+}
+
+#media {
 	float: left;
-	margin: 0 20px 20px 0;
+}
+
+#content article p {
+	padding-bottom: 20px;
 }
 
 #content:after {

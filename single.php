@@ -4,7 +4,7 @@
 	<article>
 		<h1><?php the_title() ?></h1>
 		<div id="media"><?php echo get_the_post_thumbnail() ?></div>
-		<?php the_content() ?>	
+		<div id="body"><?php the_content() ?></div>	
 	</article>	
 
 <?php endwhile; ?>
