@@ -2,6 +2,7 @@
 
 body {
 	background-color: #e0eaf3;
+	font-family: 'Alef', sans-serif;
 }
 
 #slideshow {
@@ -54,6 +55,74 @@ nav a {
 	padding-top: 22px;
 	margin-left: 20px;
 }
+
+#page {
+	background-image: url(../images/decor-bottom.png), url(../images/page-bg.png);
+	background-repeat: no-repeat, repeat;
+	background-position: bottom right, top left;
+	position: relative;
+	z-index: 2;
+	margin-top: 20px;
+}
+
+#page:before {
+	background-image: url(../images/page-top.png);
+	background-repeat: repeat-x;
+	height: 6px;
+	content: '';
+	display: block;
+}
+
+#page:after {
+	background-image: url(../images/page-bottom.png);
+	background-repeat: repeat-x;
+	height: 9px;
+	content: '';
+	display: block;
+	position: relative;
+	z-index: 1;
+	border-bottom: 1px solid #fff;
+	clear: both;
+}
+
+#content {
+	width: 220px;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+	color: #fff;
+}
+
+section.category {
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+}
+
+section.category h3 {
+	background-color: rgba(0, 0, 0, .2);
+	height: 40px;
+	width: 220px;
+	position: absolute;
+	bottom: 0;
+	padding-top: 20px;
+}
+
+section.category a {
+	width: 220px;
+	height: 256px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	position: relative;
+	z-index: 3;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+section.category a:hover {
+	background-color: rgba(132, 186, 88, 0.9);
+}
+
 
 footer {
 	text-align: center;
