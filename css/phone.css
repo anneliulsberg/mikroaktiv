@@ -1,5 +1,71 @@
-@import url("css/reset.css");
+@import url("reset.css");
+
+body {
+	background-color: #e0eaf3;
+}
 
 #slideshow {
 	display: none;
+}
+
+.home #page {
+	display: none;
+}
+
+header a {
+	background-image: url(../images/phone-logo.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 122px;
+	height: 31px;
+	text-align: center;
+	text-indent: -10000px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+nav {
+	font-family: 'Finger Paint', cursive;
+	font-size: 20px;
+}
+
+nav li {
+	background-image: url(../images/phone-menu.png);
+	background-repeat: repeat-x;
+	list-style: none;
+	width: ;
+}
+
+nav li:hover, 
+nav li.current {
+	background-image: url(../images/phone-menu-active.png);
+	background-repeat: repeat-x;
+}
+
+nav a {
+	background-image: url(../images/phone-arrow.png);
+	background-repeat: no-repeat;
+	background-position: 300px 18px;
+	color: #fff;
+	text-decoration: none;
+	height: 42px;
+	display: block;
+	margin-top: 10px;
+	padding-top: 22px;
+	margin-left: 20px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+footer a {
+	color: #4781b2;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Finger Paint', cursive;
+	display: block;
+	margin-bottom: 10px;
 }
