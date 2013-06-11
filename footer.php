@@ -1,4 +1,4 @@
-		</div>
+</div>
 			
 		</div>
 		
@@ -9,6 +9,8 @@
 			<div class="fb-like" data-href="http://mikroaktiv.no/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-font="lucida grande"></div>
 
 		</footer>
+		
+		<?php wp_footer(); ?>
 	
 	</body>
 
