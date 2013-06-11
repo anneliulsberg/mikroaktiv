@@ -85,6 +85,11 @@ nav li {
 	box-shadow:         4px 4px 10px rgba(153, 153, 153, 0.4);
 }
 
+#slideshow img {
+	height: 512px;
+	max-width: 1490px;
+}
+
 #page {
 	background-image: url(../images/decor-bottom.png), url(../images/page-bg.png);
 	background-repeat: no-repeat, repeat;

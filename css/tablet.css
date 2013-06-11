@@ -35,3 +35,20 @@ header a:hover {
 	background-image: url(../images/tablet-menu-header-logo-hover.png);
 }
 
+#slideshow {
+	display: block;
+	height: 275px;
+	max-width: 768px;
+	margin: 20px auto 0 auto;
+	overflow: hidden;
+	-webkit-box-shadow: 4px 4px 10px rgba(153, 153, 153, 0.4);
+	-moz-box-shadow:    4px 4px 10px rgba(153, 153, 153, 0.4);
+	box-shadow:         4px 4px 10px rgba(153, 153, 153, 0.4);
+}
+
+
+
+#slideshow img {
+	height: 275px;
+	max-width: 768px;
+}
