@@ -1,6 +1,7 @@
-jQuery(function($) {
-	
+jQuery(function($) {	
 	"use strict";
 	
-	$('#slideshow').cycle();
+	if (document.documentElement.clientWidth > 615) {
+		$('#slideshow').cycle();
+	}	
 });

@@ -4,11 +4,14 @@
 
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
 		<title><?php wp_title('-', true, 'right'); ?> <?php bloginfo('name') ?></title>
 		<link rel="Shortcut Icon" type="image/ico" href="<?php echo $t_uri ?>/images/favicon.ico">
 		<link href='http://fonts.googleapis.com/css?family=Alef:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="<?php echo $t_uri ?>/style.css">
+		<link rel="stylesheet" href="<?php echo $t_uri ?>/css/phone.css" media="only screen and (min-width: 320px)">
+		<link rel="stylesheet" href="<?php echo $t_uri ?>/css/tablet.css" media="only screen and (min-width: 768px)">
+		<link rel="stylesheet" href="<?php echo $t_uri ?>/css/desktop.css" media="only screen and (min-width: 960px)">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 		<script src="<?php echo $t_uri ?>/js/jquery.cycle.js" type="text/javascript"></script>
 		<script src="<?php echo $t_uri ?>/js/main.js" type="text/javascript"></script>
