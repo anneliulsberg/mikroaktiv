@@ -125,11 +125,27 @@ nav li {
 	color: #fff;
 }
 
+#content:after {
+	content: '';	
+	clear: both;
+	display: block;		
+}
+
+#content article {
+	position: relative;
+	height: 256px;
+	margin-bottom: 20px;
+}
+
 #content article h1 {
 	font-family: 'Finger Paint', cursive;
 	font-size: 30px;
 	color: #fff;
 	margin-bottom: 20px;
+}
+
+#content article p {
+	padding-bottom: 20px;
 }
 
 #body {
@@ -139,16 +155,6 @@ nav li {
 
 #media {
 	float: left;
-}
-
-#content article p {
-	padding-bottom: 20px;
-}
-
-#content:after {
-	content: '';	
-	clear: both;
-	display: block;		
 }
 
 section.category {
@@ -168,7 +174,7 @@ section.category h2 {
 }
 
 section.category h3 {
-	background-color: rgba(0, 0, 0, .2);
+	background-color: rgba(0, 0, 0, .4);
 	height: 40px;
 	width: 220px;
 	position: absolute;
@@ -179,20 +185,20 @@ section.category h3 {
 section.category a {
 	width: 220px;
 	height: 256px;
-	background-color: #fff;
 	margin-bottom: 20px;
-	position: relative;
-	z-index: 3;
 	color: #fff;
 	text-decoration: none;
 	display: block;
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    4px 4px 10px rgba(0, 0, 0, 0.3);
+	box-shadow:         4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 section.category a:hover {
-	background-color: rgba(132, 186, 88, 0.9);
+	background-color: rgba(132, 186, 88, .5);
 }
 
-body.category section.category a {
+body.category section.category article {
 	float: left;
 	margin-right: 20px;
 }
@@ -200,7 +206,6 @@ body.category section.category a {
 footer {
 	text-align: center;
 	padding-top: 20px;
-	
 }
 
 footer a {

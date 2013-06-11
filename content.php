@@ -1,5 +1,3 @@
-<article>
-	<h3><?php the_title(); ?></h3>
-
-	<a href="<?php the_permalink(); ?>"><?php echo get_the_post_thumbnail(); ?></a>
+<article style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
+	<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
 </article>
