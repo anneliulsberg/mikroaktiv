@@ -32,10 +32,10 @@
 		
 		<?php if (is_home()) : ?>
 			<ul id="slideshow">
-				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-blocks.jpg"></a></li>	
-				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-chalk.jpg"></a></li>
-				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-crayon.jpg"></a></li>
-				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-fingerpaint.jpg"></a></li>	
+				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-blocks.jpg" alt="Byggeklosser" width="1490" height="512"></a></li>	
+				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-chalk.jpg" alt="Krittegning" width="1490" height="512"></a></li>
+				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-crayon.jpg" alt="Fargestifter" width="1490" height="512"></a></li>
+				<li><a href="/aktiviteter"><img src="<?php echo $t_uri ?>/images/slideshow-fingerpaint.jpg" alt="Fingermaling" width="1490" height="512"></a></li>	
 			</ul>
 		<?php endif; ?>
 		
