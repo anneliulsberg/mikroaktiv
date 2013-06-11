@@ -91,6 +91,11 @@ nav a {
 	color: #fff;
 }
 
+#content article {
+	position: relative;
+	margin-bottom: 20px;
+}
+
 #content article h1 {
 	text-align: center;
 	font-family: 'Finger Paint', cursive;
@@ -99,12 +104,12 @@ nav a {
 	margin-bottom: 20px;
 }
 
-#media {
-	margin-bottom: 20px;
-}
-
 #content article p {
 	padding-bottom: 20px;
+}
+
+#media {
+	margin-bottom: 20px;
 }
 
 body.page #content article h1 {
@@ -118,7 +123,7 @@ section.category {
 }
 
 section.category h3 {
-	background-color: rgba(0, 0, 0, .2);
+	background-color: rgba(0, 0, 0, .4);
 	height: 40px;
 	width: 220px;
 	position: absolute;
@@ -129,17 +134,17 @@ section.category h3 {
 section.category a {
 	width: 220px;
 	height: 256px;
-	background-color: #fff;
 	margin-bottom: 20px;
-	position: relative;
-	z-index: 3;
 	color: #fff;
 	text-decoration: none;
 	display: block;
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    4px 4px 10px rgba(0, 0, 0, 0.3);
+	box-shadow:         4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 section.category a:hover {
-	background-color: rgba(132, 186, 88, 0.9);
+	background-color: rgba(132, 186, 88, 0.5);
 }
 
 
