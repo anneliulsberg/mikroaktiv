@@ -112,6 +112,12 @@ nav a {
 	margin-bottom: 20px;
 }
 
+#media img {
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    4px 4px 10px rgba(0, 0, 0, 0.3);
+	box-shadow:         4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 body.page #content article h1 {
 	text-align: left;
 }
