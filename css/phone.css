@@ -55,6 +55,10 @@ nav a {
 	padding-top: 22px;
 }
 
+em {
+	font-style: italic;
+}
+
 #page {
 	background-image: url(../images/decor-bottom.png), url(../images/page-bg.png);
 	background-repeat: no-repeat, repeat;
