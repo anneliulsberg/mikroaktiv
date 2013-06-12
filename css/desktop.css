@@ -208,12 +208,6 @@ em {
 	padding-bottom: 20px;
 }
 
-.single article p:first-of-type,
-.page article p:first-of-type {
-	font-size: 18px;
-	font-weight: bold;
-}
-
 #body {
 	float: right;
 	width: 720px;
