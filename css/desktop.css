@@ -181,7 +181,7 @@ section.category h2 {
 
 section.category h3 {
 	background-color: rgba(0, 0, 0, .4);
-	height: 40px;
+	height: 60px;
 	width: 220px;
 	position: absolute;
 	bottom: 0;
@@ -207,6 +207,53 @@ section.category a:hover {
 body.category section.category article {
 	float: left;
 	margin-right: 20px;
+}
+
+.home #content .post-ratings ol,
+.category #content .post-ratings ol {
+	position: absolute;
+	bottom: 20px;
+	left: 38px;
+	
+}
+
+.single #content #header h1,
+.single #content #header ol,
+.single #content .post-ratings {
+	display: inline;
+}
+
+.single #content #header {
+	margin-bottom: 20px;
+}
+
+.single #content .post-ratings {
+	position: relative;
+	top: -7px;
+	left: 20px;
+}
+
+#content .post-ratings ol li {
+	width: 23px;
+	height: 20px;
+	padding-right: 7px;
+}
+
+#content .post-ratings ol li.on {
+    background-image: url(../images/rating-full.png);
+}
+
+#content .post-ratings ol li.off {
+    background-image: url(../images/rating-empty.png);
+}
+
+#content .post-ratings ol li.half {
+    background-image: url(../images/rating-half.png);
+}
+
+#content .post-ratings ol.vote li.o,
+#content .post-ratings ol.vote li:hover {
+    background-image: url(../images/rating-hover.png);
 }
 
 footer {
