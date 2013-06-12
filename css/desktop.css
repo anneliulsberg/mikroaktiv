@@ -167,6 +167,21 @@ em {
 	margin-bottom: 20px;
 }
 
+#content article ul {
+	list-style: disc;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+#content article ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#content article ul li a:hover {
+	color: rgb(132, 186, 88);
+}
+
 .page #content article,
 .single #content article {
 	height: auto;
