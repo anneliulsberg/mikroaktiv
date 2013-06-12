@@ -173,12 +173,12 @@ em {
 	margin-bottom: 20px;
 }
 
-#content article ul li a {
+#content article a {
 	color: #fff;
 	text-decoration: none;
 }
 
-#content article ul li a:hover {
+#content article a:hover {
 	color: rgb(132, 186, 88);
 }
 
@@ -194,8 +194,20 @@ em {
 	margin-bottom: 20px;
 }
 
+#content article h2 {
+	font-family: 'Finger Paint', cursive;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
 #content article p {
 	padding-bottom: 20px;
+}
+
+.single article p:first-of-type,
+.page article p:first-of-type {
+	font-size: 18px;
+	font-weight: bold;
 }
 
 #body {
