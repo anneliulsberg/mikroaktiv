@@ -37,6 +37,7 @@
 				<li><a href="/aktiviteter/fargestifter/"><img src="<?php echo $t_uri ?>/images/slideshow-crayon.jpg" alt="Fargestifter" width="1490" height="512"></a></li>
 				<li><a href="/aktiviteter/fingermaling/"><img src="<?php echo $t_uri ?>/images/slideshow-fingerpaint.jpg" alt="Fingermaling" width="1490" height="512"></a></li>	
 			</ul>
+			<div id="pager"></div>
 		<?php endif; ?>
 		
 		<nav>

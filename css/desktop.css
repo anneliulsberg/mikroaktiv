@@ -74,6 +74,10 @@ nav li {
 	margin-right: 60px;
 }
 
+em {
+	font-style: italic;
+}
+
 #slideshow {
 	display: block;
 	height: 512px;
@@ -88,6 +92,32 @@ nav li {
 #slideshow img {
 	height: 512px;
 	max-width: 1490px;
+}
+
+#pager {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#pager li {
+	display: inline;	
+}
+
+#pager li a {
+	margin-right: 5px;
+	display: inline-block;
+	background-image: url(../images/pager-inactive.png);
+	background-repeat: no-repeat;
+	height: 18px;
+	width: 19px;
+}
+
+#pager li.current a {
+	background-image: url(../images/pager-active.png);
+}
+
+#pager li a:hover {
+	background-image: url(../images/pager-hover.png);
 }
 
 #page {
