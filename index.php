@@ -5,8 +5,8 @@
 	<section id="<?php echo $category->slug ?>" class="category">
 		<h2>Topp 5 <?php echo $category->name ?></h2>
 	
-		<?php foreach (get_posts(array('numberposts' => 5, 'category' => $category->term_id)) as $post) :
-			
+		<?php foreach (get_posts_ordered_by_rating($category->term_id) as $post) :
+					
 		get_template_part('content');
 			
 		endforeach; ?>
