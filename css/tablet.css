@@ -209,6 +209,10 @@ em {
 	color: rgb(132, 186, 88);
 }
 
+#content article a.permalink:hover {
+	color: #fff;
+}
+
 #body {
 	float: right;
 	width: 492px;

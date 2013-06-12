@@ -182,6 +182,10 @@ em {
 	color: rgb(132, 186, 88);
 }
 
+#content article a.permalink:hover {
+	color: #fff;
+}
+
 .page #content article,
 .single #content article {
 	height: auto;

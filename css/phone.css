@@ -115,6 +115,10 @@ em {
 	color: rgb(132, 186, 88);
 }
 
+#content article a.permalink:hover {
+	color: #fff;
+}
+
 #content article h1 {
 	text-align: center;
 	font-family: 'Finger Paint', cursive;
