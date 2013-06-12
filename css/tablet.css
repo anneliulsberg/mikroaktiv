@@ -76,6 +76,7 @@ header a:hover {
 #pager li a:hover {
 	background-image: url(../images/pager-hover.png);
 }
+
 nav {
 	font-family: 'Finger Paint', cursive;
 	font-size: 14px;
@@ -163,6 +164,11 @@ em {
 	position: relative;
 	height: 197px;
 	margin-bottom: 20px;
+}
+
+.page #content article,
+.single #content article {
+	height: auto;
 }
 
 #content article h1 {

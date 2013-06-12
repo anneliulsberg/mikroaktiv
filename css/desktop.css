@@ -167,6 +167,11 @@ em {
 	margin-bottom: 20px;
 }
 
+.page #content article,
+.single #content article {
+	height: auto;
+}
+
 #content article h1 {
 	font-family: 'Finger Paint', cursive;
 	font-size: 30px;
