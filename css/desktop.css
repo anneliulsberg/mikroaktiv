@@ -205,6 +205,14 @@ em {
 	margin-bottom: 20px;
 }
 
+#content #metadata {
+	font-size: 12px;
+	font-style: italic;
+	margin-top: 10px;
+	opacity: .7;
+}
+
+
 #content article p {
 	margin-bottom: 20px;
 }
