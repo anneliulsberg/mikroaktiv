@@ -5,6 +5,7 @@ body {
 	background-position: -50px -200px;
 	background-repeat: no-repeat;
 	font-family: 'Open Sans', sans-serif;
+	line-height: 1.2;
 	background-color: #e0eaf3;
 	padding-bottom: 40px;
 }
@@ -208,14 +209,14 @@ em {
 	margin-bottom: 20px;
 }
 
-#content article p:first-child {
+.tales #content article p:first-child {
 	font-size: 20px;
 	line-height: 1.2;
 	margin-top: -4px;
 	text-align: justify;	
 }
 
-#content article p:first-child:first-letter {
+.tales #content article p:first-child:first-letter {
 	font-family: 'Finger Paint', cursive;
 	float: left;
 	margin-top: -5px;
