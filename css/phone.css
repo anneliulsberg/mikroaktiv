@@ -133,7 +133,7 @@ em {
 	margin-bottom: 20px;
 }
 
-.tales #content article p {
+#content article p {
 	margin-bottom: 20px;
 }
 
@@ -144,7 +144,7 @@ em {
 	text-align: justify;	
 }
 
-#content article p:first-child:first-letter {
+.tales #content article p:first-child:first-letter {
 	font-family: 'Finger Paint', cursive;
 	float: left;
 	margin-top: -5px;
