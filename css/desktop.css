@@ -4,7 +4,7 @@ body {
 	background-image: url(../images/decor-circlemenu.png);
 	background-position: -50px -200px;
 	background-repeat: no-repeat;
-	font-family: 'Alef', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background-color: #e0eaf3;
 	padding-bottom: 40px;
 }
@@ -208,6 +208,25 @@ em {
 	margin-bottom: 20px;
 }
 
+#content article p:first-child {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+	margin-top: -4px;
+	text-align: justify;	
+}
+
+#content article p:first-child:first-letter {
+	font-family: 'Finger Paint', cursive;
+	float: left;
+	margin-top: -5px;
+	margin-bottom: -10px;
+	font-size: 47px;
+	color: #fff;
+	margin-right: 4px;
+	text-shadow: 3px 3px rgba(0, 0, 0, .2);
+}
+
 #body {
 	float: right;
 	width: 720px;
@@ -237,6 +256,7 @@ body.category section.category {
 section.category h2 {
 	font-size: 20px;
 	margin-bottom: 20px;
+	font-weight: 700;
 }
 
 section.category h3 {
