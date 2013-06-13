@@ -229,12 +229,8 @@ section.category {
 	margin-right: 20px;
 }
 
-section.category:last-child {
+section.category:nth-child(4) {
 	margin-right: 0;
-}
-
-body.category section.category {
-	width: 768px;
 }
 
 section.category h2 {
@@ -266,7 +262,7 @@ section.category a {
 }
 
 body.category section.category {
-	width: 768px;
+	width: 748px;
 }
 
 section.category a:hover {
@@ -276,6 +272,11 @@ section.category a:hover {
 body.category section.category article {
 	float: left;
 	margin-right: 20px;
+}
+
+
+body.category section.category article:nth-child(4) {
+	margin-right: 0;
 }
 
 .home #content .post-ratings ol,
