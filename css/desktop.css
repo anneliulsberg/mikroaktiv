@@ -26,6 +26,10 @@ body.rhymes {
 	background-color: #4e8ac0;
 }
 
+body.songs {
+	background-color: #de462f;
+}
+
 header {
 	background-image: url(../images/menu-header.png);
 	background-repeat: repeat-x;
@@ -44,6 +48,10 @@ header {
 
 .rhymes header {
 	background-color: #d9e5f0;
+}
+
+.songs header {
+	background-color: #f4e3e0;
 }
 
 header a {
@@ -183,6 +191,10 @@ em {
 
 .rhymes #page {
 	background-color: #d9e5f0;
+}
+
+.songs #page {
+	background-color: #f4e3e0;
 }
 
 #page:before {
