@@ -14,12 +14,47 @@ body.home {
 	background-position: -50px 240px;
 }
 
+body.home {
+	background-position: -50px 240px;
+}
+
+body.activities {
+	background-color: #f5d95c;
+}
+
+body.tales {
+	background-color: #dbecce;
+}
+
+body.rhymes {
+	background-color: #d9e5f0;
+}
+
+body.songs {
+	background-color: #f4e3e0;
+}
 header {
 	background-color: #575757;
 	background-image: url(../images/tablet-menu-header.png);
 	background-repeat: repeat-x;
 	height: 51px;
 	padding-top: 15px;
+}
+
+.activities header {
+	background-color: #ffb400;
+}
+
+.tales header {
+	background-color: #8ece5f;
+}
+
+.rhymes header {
+	background-color: #4e8ac0;
+}
+
+.songs header {
+	background-color: #de462f;
 }
 
 header a {
@@ -85,12 +120,6 @@ nav {
 	height: 202px;
 }
 
-nav li:hover, 
-nav li.current {
-	background-image: url(../images/tablet-menu-circle-h-a.png);
-	background-repeat: no-repeat;
-}
-
 nav a {
 	color: #fff;
 	text-decoration: none;
@@ -117,6 +146,30 @@ nav li {
 	margin-right: 30px;
 }
 
+nav li#menu-item-6:hover, 
+nav li#menu-item-6.current {
+	background-image: url(../images/tablet-menu-circle-activities.png);
+	background-repeat: no-repeat;
+}
+
+nav li#menu-item-7:hover, 
+nav li#menu-item-7.current {
+	background-image: url(../images/tablet-menu-circle-tales.png);
+	background-repeat: no-repeat;
+}
+
+nav li#menu-item-8:hover, 
+nav li#menu-item-8.current {
+	background-image: url(../images/tablet-menu-circle-rhymes.png);
+	background-repeat: no-repeat;
+}
+
+nav li#menu-item-9:hover, 
+nav li#menu-item-9.current {
+	background-image: url(../images/tablet-menu-circle-songs.png);
+	background-repeat: no-repeat;
+}
+
 em {
 	font-style: italic;
 }
@@ -128,6 +181,22 @@ em {
 	background-position: bottom right;
 	position: relative;
 	z-index: 2;
+}
+
+.activities #page {
+	background-color: #ffb400;
+}
+
+.tales #page {
+	background-color: #8ece5f;
+}
+
+.rhymes #page {
+	background-color: #4e8ac0;
+}
+
+.songs #page {
+	background-color: #de462f;
 }
 
 #page:before {
