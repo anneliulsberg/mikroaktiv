@@ -6,6 +6,26 @@ body {
 	line-height: 1.2;
 }
 
+body.home {
+	background-position: -50px 240px;
+}
+
+body.activities {
+	background-color: #f5d95c;
+}
+
+body.tales {
+	background-color: #dbecce;
+}
+
+body.rhymes {
+	background-color: #d9e5f0;
+}
+
+body.songs {
+	background-color: #f4e3e0;
+}
+
 #slideshow {
 	display: none;
 }
@@ -38,10 +58,24 @@ nav li {
 	width: ;
 }
 
-nav li:hover, 
-nav li.current {
-	background-image: url(../images/phone-menu-active.png);
-	background-repeat: repeat-x;
+nav li#menu-item-6:hover, 
+nav li#menu-item-6.current {
+	background-image: url(../images/phone-menu-activities.png);
+}
+
+nav li#menu-item-7:hover, 
+nav li#menu-item-7.current {
+	background-image: url(../images/phone-menu-tales.png);
+}
+
+nav li#menu-item-8:hover, 
+nav li#menu-item-8.current {
+	background-image: url(../images/phone-menu-rhymes.png);
+}
+
+nav li#menu-item-9:hover, 
+nav li#menu-item-9.current {
+	background-image: url(../images/phone-menu-songs.png);
 }
 
 nav a {
@@ -68,6 +102,22 @@ em {
 	position: relative;
 	z-index: 2;
 	margin-top: 20px;
+}
+
+.activities #page {
+	background-color: #ffb400;
+}
+
+.tales #page {
+	background-color: #8ece5f;
+}
+
+.rhymes #page {
+	background-color: #4e8ac0;
+}
+
+.songs #page {
+	background-color: #de462f;
 }
 
 #page:before {
