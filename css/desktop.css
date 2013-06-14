@@ -22,6 +22,10 @@ body.tales {
 	background-color: #8ece5f;
 }
 
+body.rhymes {
+	background-color: #4e8ac0;
+}
+
 header {
 	background-image: url(../images/menu-header.png);
 	background-repeat: repeat-x;
@@ -36,6 +40,10 @@ header {
 
 .tales header {
 	background-color: #dbecce;
+}
+
+.rhymes header {
+	background-color: #d9e5f0;
 }
 
 header a {
@@ -171,6 +179,10 @@ em {
 
 .tales #page {
 	background-color: #dbecce;
+}
+
+.rhymes #page {
+	background-color: #d9e5f0;
 }
 
 #page:before {
