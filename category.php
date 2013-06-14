@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php query_posts($query_string . "&orderby=title&order=asc"); ?>
 
 <section class="category">
 
