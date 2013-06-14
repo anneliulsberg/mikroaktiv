@@ -19,15 +19,15 @@ body.activities {
 }
 
 body.tales {
-	background-color: #8ece5f;
+	background-color: #dbecce;
 }
 
 body.rhymes {
-	background-color: #4e8ac0;
+	background-color: #d9e5f0;
 }
 
 body.songs {
-	background-color: #de462f;
+	background-color: #f4e3e0;
 }
 
 header {
@@ -43,15 +43,15 @@ header {
 }
 
 .tales header {
-	background-color: #dbecce;
+	background-color: #8ece5f;
 }
 
 .rhymes header {
-	background-color: #d9e5f0;
+	background-color: #4e8ac0;
 }
 
 .songs header {
-	background-color: #f4e3e0;
+	background-color: #de462f;
 }
 
 header a {
@@ -186,15 +186,15 @@ em {
 }
 
 .tales #page {
-	background-color: #dbecce;
+	background-color: #8ece5f;
 }
 
 .rhymes #page {
-	background-color: #d9e5f0;
+	background-color: #4e8ac0;
 }
 
 .songs #page {
-	background-color: #f4e3e0;
+	background-color: #de462f;
 }
 
 #page:before {
