@@ -368,7 +368,7 @@ body.category section.category article {
 }
 
 
-body.category section.category article:nth-child(4) {
+body.category section.category article:nth-child(4n) {
 	margin-right: 0;
 }
 
