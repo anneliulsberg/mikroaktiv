@@ -149,25 +149,21 @@ nav li {
 nav li#menu-item-6:hover, 
 nav li#menu-item-6.current {
 	background-image: url(../images/tablet-menu-circle-activities.png);
-	background-repeat: no-repeat;
 }
 
 nav li#menu-item-7:hover, 
 nav li#menu-item-7.current {
 	background-image: url(../images/tablet-menu-circle-tales.png);
-	background-repeat: no-repeat;
 }
 
 nav li#menu-item-8:hover, 
 nav li#menu-item-8.current {
 	background-image: url(../images/tablet-menu-circle-rhymes.png);
-	background-repeat: no-repeat;
 }
 
 nav li#menu-item-9:hover, 
 nav li#menu-item-9.current {
 	background-image: url(../images/tablet-menu-circle-songs.png);
-	background-repeat: no-repeat;
 }
 
 em {
