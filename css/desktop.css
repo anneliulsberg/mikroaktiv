@@ -11,6 +11,7 @@ body {
 }
 
 body.home {
+	background-color: #f2f3f3;
 	background-position: -50px 240px;
 }
 
@@ -76,30 +77,6 @@ nav {
 
 }
 
-nav li#menu-item-6:hover, 
-nav li#menu-item-6.current {
-	background-image: url(../images/menu-circle-activities.png);
-	background-repeat: no-repeat;
-}
-
-nav li#menu-item-7:hover, 
-nav li#menu-item-7.current {
-	background-image: url(../images/menu-circle-fairytale.png);
-	background-repeat: no-repeat;
-}
-
-nav li#menu-item-8:hover, 
-nav li#menu-item-8.current {
-	background-image: url(../images/menu-circle-rhymes.png);
-	background-repeat: no-repeat;
-}
-
-nav li#menu-item-9:hover, 
-nav li#menu-item-9.current {
-	background-image: url(../images/menu-circle-songs.png);
-	background-repeat: no-repeat;
-}
-
 nav a {
 	color: #fff;
 	text-decoration: none;
@@ -124,6 +101,26 @@ nav li {
 	height: 140px;
 	margin-top: 60px;
 	margin-right: 60px;
+}
+
+nav li#menu-item-6:hover, 
+nav li#menu-item-6.current {
+	background-image: url(../images/menu-circle-activities.png);
+}
+
+nav li#menu-item-7:hover, 
+nav li#menu-item-7.current {
+	background-image: url(../images/menu-circle-fairytale.png);
+}
+
+nav li#menu-item-8:hover, 
+nav li#menu-item-8.current {
+	background-image: url(../images/menu-circle-rhymes.png);
+}
+
+nav li#menu-item-9:hover, 
+nav li#menu-item-9.current {
+	background-image: url(../images/menu-circle-songs.png);
 }
 
 em {
