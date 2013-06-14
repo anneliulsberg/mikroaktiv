@@ -18,6 +18,10 @@ body.activities {
 	background-color: #f5d95c;
 }
 
+body.tales {
+	background-color: #8ece5f;
+}
+
 header {
 	background-image: url(../images/menu-header.png);
 	background-repeat: repeat-x;
@@ -28,6 +32,10 @@ header {
 
 .activities header {
 	background-color: #ffb400;
+}
+
+.tales header {
+	background-color: #dbecce;
 }
 
 header a {
@@ -159,6 +167,10 @@ em {
 
 .activities #page {
 	background-color: #ffb400;
+}
+
+.tales #page {
+	background-color: #dbecce;
 }
 
 #page:before {
