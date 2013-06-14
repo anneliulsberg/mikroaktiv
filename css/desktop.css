@@ -1,12 +1,9 @@
 @import url("reset.css");
 
 body {
-	background-image: url(../images/decor-circlemenu.png);
-	background-position: -50px -200px;
-	background-repeat: no-repeat;
+	background: #f2f3f3 url(../images/decor-circlemenu.png) -50px -200px no-repeat;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.2;
-	background-color: #e0eaf3;
 	padding-bottom: 40px;
 }
 
@@ -19,6 +16,7 @@ header {
 	background-repeat: repeat-x;
 	height: 66px;
 	padding-top: 20px;
+	background-color: #575757;
 }
 
 header a {
@@ -122,9 +120,10 @@ em {
 }
 
 #page {
-	background-image: url(../images/decor-bottom.png), url(../images/page-bg.png);
-	background-repeat: no-repeat, repeat;
-	background-position: bottom right, top left;
+	background-color: #575757;
+	background-image: url(../images/decor-bottom.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
 	position: relative;
 	z-index: 2;
 }
@@ -289,7 +288,7 @@ section.category a {
 }
 
 section.category a:hover {
-	background-color: rgba(132, 186, 88, .5);
+	background-color: rgba(0, 0, 0, .5);
 }
 
 body.category section.category article {
@@ -350,7 +349,7 @@ footer {
 }
 
 footer a {
-	color: #4781b2;
+	color: #000;
 	text-decoration: none;
 	margin-right: 20px;
 	font-size: 25px;

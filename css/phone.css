@@ -1,7 +1,7 @@
 @import url("reset.css");
 
 body {
-	background-color: #e0eaf3;
+	background-color: #f2f3f3;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.2;
 }
@@ -61,9 +61,10 @@ em {
 }
 
 #page {
-	background-image: url(../images/decor-bottom.png), url(../images/page-bg.png);
-	background-repeat: no-repeat, repeat;
-	background-position: bottom right, top left;
+	background-color: #575757;
+	background-image: url(../images/decor-bottom.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
 	position: relative;
 	z-index: 2;
 	margin-top: 20px;
@@ -205,7 +206,7 @@ section.category a {
 }
 
 section.category a:hover {
-	background-color: rgba(132, 186, 88, 0.5);
+	background-color: rgba(0, 0, 0, .5);
 }
 
 .home #content .post-ratings ol,
@@ -253,7 +254,7 @@ footer {
 }
 
 footer a {
-	color: #4781b2;
+	color: #000;
 	text-decoration: none;
 	font-size: 20px;
 	font-family: 'Finger Paint', cursive;
